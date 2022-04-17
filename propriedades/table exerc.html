@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>Tabelas</title>
+    <style>
+        table,
+        th,
+        td {
+            border: solid 1px;
+            border-collapse: collapse;
+            text-align: center;
+        }
+
+        table {
+            width: 300px;
+            table-layout: auto;
+        }
+
+        th {
+            height: 30px;
+        }
+
+        td {
+                    text-align: center;
+        }
+
+        .tabelaZebrada th {
+            text-align: left;
+            vertical-align: middle;
+            background-color: green;
+            color: white;
+        }
+        .tabelaZebrada tr:hover {
+    background-color: tomato;
+        }
+        .zebra{
+            background-color: lightgray;
+            border: solid 1px gray;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Estilos para Tabelas</h1>
+
+    </div>
+    <br>
+    <table class="tabelaZebrada">
+        <tr>
+            <th>Código</th>
+            <th>Nome</th>
+            <th>Cadastro</th>
+
+
+        </tr>
+        <tr class="zebra">
+            <td>001</td>
+            <td>Everton</td>
+            <td>Aluno</td>
+
+        </tr>
+        <tr>
+            <td>007</td>
+            <td>Bond</td>
+            <td>Professor</td>
+        </tr>
+        <tr class="zebra">
+            <td>010</td>
+            <td>Guilherme</td>
+            <td>Professor</td>
+        </tr>
+    </table>
+</body>
+
+</html>
