@@ -1,0 +1,15 @@
+.negrito{
+font-weight: bold;
+}
+
+.alinharDireita {
+    text-align: right;
+}
+
+.alinharCentro {
+    text-align: center;
+}
+
+h1 {
+    text-shadow: 2px 2px 2px cyan;
+}
