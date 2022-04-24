@@ -1,3 +1,6 @@
 https://drive.google.com/drive/folders/12IV0T1LqEYs7I3luTz4y0v7lzIibKqD-
 
 http://dontpad.com/prowaycss
+
+# -> identifica id
+. -> identifica classe
