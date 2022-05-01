@@ -22,11 +22,18 @@
         p.paragrafoA::before {
             content: "Antes do parágrafo: ";
             color: blue;
+            background-color: lightblue;
         }
 
         p.paragrafoA::after {
             content: " Depois do parágrafo!";
             color: red;
+            background-color: lightsalmon;
+        }
+            ::selection {
+                background-color: darkorange;
+                color: wheat;
+            }
     </style>
 
 </head>
@@ -57,7 +64,7 @@
     <h3>Exemplo de After e Before</h3>
     <p class="paragrafoA">
         Parágrafo simples
-        </p>
+    </p>
 
 
 </body>

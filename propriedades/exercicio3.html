@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            padding: 5px;
+    
+        }
+
+        label {
+            margin-bottom: 5px;
+            margin-top: 30px;
+        }
+
+        input {
+            border: solid 1px gray;
+            border-radius: 5px;
+            padding: 10px;
+            min-width: 300px;
+            max-width: 500px;
+            font-size: 20px;
+            color: blue;
+            background-color: lightgray;
+          
+        }
+
+
+        @media screen and (min-width: 400px) {
+            div {
+                font-size: 30px;
+                padding: 10px;
+                background-color: teal;
+                color: white;
+                text-align: left;
+                display: block;
+            }
+        }
+
+        @media screen and (max-width: 800px) {
+            div {
+                font-size: 20px;
+                padding: 15px;
+                width: 50%;
+                background-color: brown;
+                color: white;
+                text-align: left;
+            }
+        }
+
+        div {
+            border: solid 1px black;
+        }
+
+        h3 {
+            font-size: 30px;
+            background-color: grey;
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <h3 class="h3">Cadastro de novo usuário</h3>
+
+
+    <div>
+        <label for="nome">Nome completo:</label>
+        <input class="text" type="text" id="nome">
+    </div>
+    <div>
+        <label for="cpf">CPF:</label>
+        <input type="text" name="cpf">
+    </div>
+    <div>
+        <label for="nascimento">Data de nascimento:</label>
+        <input type="date" name="nascimento">
+    </div>
+    <div>
+        <label for="local">Local de nascimento:</label>
+        <input type="text" name="local">
+    </div>
+    <div>
+        <label for="tel">Telefone para contato:</label>
+        <input type="number" name="tel">
+    </div>
+
+
+
+</body>
+
+</html>
