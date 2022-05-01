@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        div.a p::first-line {
+            background-color: coral;
+            color: white;
+        }
+
+        div.b p::first-letter {
+            font-size: 40px;
+            color: red;
+            font-family: cursive;
+        }
+
+        p.paragrafoA::before {
+            content: "Antes do parágrafo: ";
+            color: blue;
+        }
+
+        p.paragrafoA::after {
+            content: " Depois do parágrafo!";
+            color: red;
+    </style>
+
+</head>
+
+<body>
+
+    <h3>Exemplo de pseudo-element</h3>
+
+    <div class="a">
+        <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita, quidem dolorem ullam illo quod eveniet
+            perferendis sint optio id? Esse placeat temporibus voluptas autem, commodi modi illo rem quidem repellendus.
+            Porro sapiente nemo consectetur accusamus numquam est perferendis doloribus aperiam eligendi unde officia,
+            quae
+            veniam soluta architecto ratione, quos eos!
+        </p>
+    </div>
+    <div class="b">
+        <p class="b">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita, quidem dolorem ullam illo quod eveniet
+            perferendis sint optio id? Esse placeat temporibus voluptas autem, commodi modi illo rem quidem repellendus.
+            Porro sapiente nemo consectetur accusamus numquam est perferendis doloribus aperiam eligendi unde officia,
+            quae
+            veniam soluta architecto ratione, quos eos!
+        </p>
+    </div>
+
+    <h3>Exemplo de After e Before</h3>
+    <p class="paragrafoA">
+        Parágrafo simples
+        </p>
+
+
+</body>
+
+</html>
